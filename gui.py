@@ -11,6 +11,9 @@ class GitHubBindingWindow:
         self.window.title("绑定GitHub")
         self.window.geometry("300x150")
 
+        # 设置窗口置顶
+        self.window.attributes("-topmost", True)
+
         # 创建控件
         self.create_widgets()
 
